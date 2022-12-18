@@ -1,10 +1,11 @@
 import { BannerHome } from "../components/BannerHome";
-import { Header } from "../components/Header";
+import { TripCharacteristics } from "../components/TripCharacteristics";
 
 export default function Home() {
   return (
     <>
       <BannerHome />
+      <TripCharacteristics />
     </>
   );
 }

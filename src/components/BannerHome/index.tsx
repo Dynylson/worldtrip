@@ -1,7 +1,5 @@
-import { Flex, Box, Grid, Text, Heading } from "@chakra-ui/react";
+import { Flex, Box, Text, Heading } from "@chakra-ui/react";
 import Image from "next/image";
-
-import BackgroundHome from "../../../public/BackgroundHome.png";
 
 export function BannerHome() {
   return (
@@ -20,7 +18,7 @@ export function BannerHome() {
         justifyContent='space-between'
         alignItems='center'
       >
-        <Flex direction='column' ml={["1.3rem"]}>
+        <Flex direction='column' ml={["1.3rem", "0rem"]}>
           <Heading
             color='white'
             justifyContent='start'
